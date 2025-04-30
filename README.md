@@ -58,8 +58,10 @@ GROUP BY
 ORDER BY
     month, payment_status; 
 This query shows how payment statuses change over time, helping you spot trends or issues in specific months.
+________________________________________
 
 4. Bonus: Payment Method vs Status Breakdown
+   
 SELECT
     payment_method,
     payment_status,
